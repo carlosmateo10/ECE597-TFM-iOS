@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SplashViewController.swift
 //  ECE-597-2
 //
 //  Created by Carlos Mateo on 09/06/2020.
@@ -8,13 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class SplashViewController: UINavigationController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        performSegue(withIdentifier: "toLogin", sender: self)
     }
 
-
 }
-
