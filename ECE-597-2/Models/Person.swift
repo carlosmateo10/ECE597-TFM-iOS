@@ -6,4 +6,11 @@
 //  Copyright © 2020 Carlos Mateo. All rights reserved.
 //
 
-import Foundation
+struct Person {
+    let id: String
+    let camera: String
+    let month: Int
+    let day: Int
+    let hour: Int
+    let minute: Int
+}

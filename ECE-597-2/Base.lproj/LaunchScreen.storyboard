@@ -15,21 +15,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ECE597-TFM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjF-Sf-G1T">
-                                <rect key="frame" x="156" y="203" width="102" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ECE597-TFM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZjF-Sf-G1T">
+                                <rect key="frame" x="118" y="176" width="178" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="HzS-ah-WsT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="upm_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Iw8-4N-2o5">
+                                <rect key="frame" x="20" y="282" width="374" height="249"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="illinois_tech_logo" translatesAutoresizingMaskIntoConstraints="NO" id="P9G-rx-97o">
+                                <rect key="frame" x="20" y="608" width="374" height="130"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="ZjF-Sf-G1T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="132" id="6sz-GV-9qo"/>
+                            <constraint firstItem="Iw8-4N-2o5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Cqw-Ac-9de"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Iw8-4N-2o5" secondAttribute="trailing" constant="20" id="HrW-Mm-AV9"/>
+                            <constraint firstItem="P9G-rx-97o" firstAttribute="top" secondItem="Iw8-4N-2o5" secondAttribute="bottom" constant="77" id="JLX-5M-gKc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P9G-rx-97o" secondAttribute="bottom" constant="124" id="WHf-VX-l64"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="P9G-rx-97o" secondAttribute="trailing" constant="20" id="hVY-2w-L6l"/>
+                            <constraint firstItem="ZjF-Sf-G1T" firstAttribute="centerX" secondItem="Iw8-4N-2o5" secondAttribute="centerX" id="iMA-1V-05f"/>
+                            <constraint firstItem="P9G-rx-97o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kit-LJ-15u"/>
+                            <constraint firstItem="Iw8-4N-2o5" firstAttribute="top" secondItem="ZjF-Sf-G1T" secondAttribute="bottom" constant="70" id="zfP-AA-3vb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="illinois_tech_logo" width="531" height="130"/>
+        <image name="upm_logo" width="1654" height="768"/>
+    </resources>
 </document>

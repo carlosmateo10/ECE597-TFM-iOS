@@ -20,8 +20,14 @@
 		AF39DCB4248FADFF00A4B9F3 /* ECE_597_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF39DCB3248FADFF00A4B9F3 /* ECE_597_2Tests.swift */; };
 		AF39DCBF248FADFF00A4B9F3 /* ECE_597_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF39DCBE248FADFF00A4B9F3 /* ECE_597_2UITests.swift */; };
 		AF39DCCD248FAF0900A4B9F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF39DCCC248FAF0900A4B9F3 /* GoogleService-Info.plist */; };
+		AF3D628C24A910B200F4AAEA /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3D628B24A910B200F4AAEA /* PersonCell.swift */; };
+		AF4298C024A963F500C7B77F /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4298BF24A963F500C7B77F /* PersonListViewController.swift */; };
 		AF43C4232497A9BC00FB3F35 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43C4222497A9BC00FB3F35 /* PeopleListViewController.swift */; };
 		AF43C4262497C2D200FB3F35 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF43C4252497C2D200FB3F35 /* Person.swift */; };
+		AF44841124BE15CD00BC3D34 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF44841024BE15CD00BC3D34 /* ReportsViewController.swift */; };
+		AF4772C624AA688E00118FED /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4772C524AA688E00118FED /* SettingsViewController.swift */; };
+		AF4772C824AA693900118FED /* AddBlueprintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4772C724AA693900118FED /* AddBlueprintViewController.swift */; };
+		AF4772CA24AA694C00118FED /* ManageBlueprintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4772C924AA694C00118FED /* ManageBlueprintsViewController.swift */; };
 		C2B42145CCE482C78E0D3032 /* Pods_ECE_597_2_ECE_597_2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18FD6E834FE8EB8C5D6FABA /* Pods_ECE_597_2_ECE_597_2UITests.framework */; };
 		D056B1A2A744583006A8C9C4 /* Pods_ECE_597_2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13525381E161BDC1AC3CA25E /* Pods_ECE_597_2Tests.framework */; };
 /* End PBXBuildFile section */
@@ -70,8 +76,14 @@
 		AF39DCBE248FADFF00A4B9F3 /* ECE_597_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ECE_597_2UITests.swift; sourceTree = "<group>"; };
 		AF39DCC0248FADFF00A4B9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF39DCCC248FAF0900A4B9F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF3D628B24A910B200F4AAEA /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		AF4298BF24A963F500C7B77F /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
 		AF43C4222497A9BC00FB3F35 /* PeopleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
 		AF43C4252497C2D200FB3F35 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AF44841024BE15CD00BC3D34 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		AF4772C524AA688E00118FED /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AF4772C724AA693900118FED /* AddBlueprintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBlueprintViewController.swift; sourceTree = "<group>"; };
+		AF4772C924AA694C00118FED /* ManageBlueprintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageBlueprintsViewController.swift; sourceTree = "<group>"; };
 		B7F2C8F9FC5835599F733C31 /* Pods-ECE-597-2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ECE-597-2Tests.debug.xcconfig"; path = "Target Support Files/Pods-ECE-597-2Tests/Pods-ECE-597-2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +145,11 @@
 				AF39DCA0248FADFC00A4B9F3 /* LoginViewController.swift */,
 				AF37E62A248FE97100233DBC /* SplashViewController.swift */,
 				AF43C4222497A9BC00FB3F35 /* PeopleListViewController.swift */,
+				AF4298BF24A963F500C7B77F /* PersonListViewController.swift */,
+				AF4772C524AA688E00118FED /* SettingsViewController.swift */,
+				AF4772C724AA693900118FED /* AddBlueprintViewController.swift */,
+				AF4772C924AA694C00118FED /* ManageBlueprintsViewController.swift */,
+				AF44841024BE15CD00BC3D34 /* ReportsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -206,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				AF43C4252497C2D200FB3F35 /* Person.swift */,
+				AF3D628B24A910B200F4AAEA /* PersonCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -489,9 +507,15 @@
 			files = (
 				AF39DCA1248FADFC00A4B9F3 /* LoginViewController.swift in Sources */,
 				AF43C4232497A9BC00FB3F35 /* PeopleListViewController.swift in Sources */,
+				AF3D628C24A910B200F4AAEA /* PersonCell.swift in Sources */,
+				AF4772CA24AA694C00118FED /* ManageBlueprintsViewController.swift in Sources */,
+				AF4772C624AA688E00118FED /* SettingsViewController.swift in Sources */,
+				AF4772C824AA693900118FED /* AddBlueprintViewController.swift in Sources */,
 				AF39DC9D248FADFC00A4B9F3 /* AppDelegate.swift in Sources */,
 				AF39DC9F248FADFC00A4B9F3 /* SceneDelegate.swift in Sources */,
 				AF43C4262497C2D200FB3F35 /* Person.swift in Sources */,
+				AF44841124BE15CD00BC3D34 /* ReportsViewController.swift in Sources */,
+				AF4298C024A963F500C7B77F /* PersonListViewController.swift in Sources */,
 				AF37E623248FDAC800233DBC /* MainViewController.swift in Sources */,
 				AF37E62B248FE97100233DBC /* SplashViewController.swift in Sources */,
 			);

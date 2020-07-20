@@ -9,6 +9,7 @@
 import UIKit
 import GoogleSignIn
 import FirebaseAuth
+import WARangeSlider
 
 class MainViewController: UIViewController {
 
@@ -17,6 +18,10 @@ class MainViewController: UIViewController {
         performSegue(withIdentifier: "toPeopleList", sender: self)
     }
     
+    @IBAction func toReports(_ sender: Any) {
+        print("toReports Segue")
+        performSegue(withIdentifier: "toReports", sender: self)
+    }
     @IBAction func signOut(_ sender: Any) {
         print("Signing Out")
         GIDSignIn.sharedInstance()?.signOut()
@@ -32,5 +37,10 @@ class MainViewController: UIViewController {
         
         print("Signed out")
         performSegue(withIdentifier: "toLoginAfterSignOut", sender: self)
+    }
+    
+    @IBAction func toSettings(_ sender: Any) {
+        print("toSettings Segue")
+        performSegue(withIdentifier: "toSettings", sender: self)
     }
 }
